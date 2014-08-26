@@ -1,0 +1,7 @@
+<template name="groupItem">
+  <ul class="list-unstyled sortable-groups" data-id='{{_id}}'>
+    {{#each ideas}}
+      <li class="item grouped" data-id="{{_id}}" data-pos="{{position}}">{{name}}- {{_id}} - {{position}}</li>
+    {{/each}}
+  </ul>
+</template>

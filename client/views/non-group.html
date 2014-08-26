@@ -1,0 +1,7 @@
+<template name="nonGroupItem">
+  <ul class="list-unstyled sortable-non-group" data-id='{{_id}}'>
+    {{#each ideas}}
+      <li class="item non-grouped" data-id="{{_id}}" data-pos="{{position}}">{{name}} - {{position}}</li>
+    {{/each}}
+  </ul>
+</template>

@@ -1,0 +1,68 @@
+body {
+  padding-top: 20px;
+}
+
+.item {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  width: 90%;
+  margin: 2px;
+}
+
+.grouped {
+  background-color: #aaa;
+}
+
+.non-grouped {
+    background-color: #ddd;
+}
+
+.groups-list {
+  width: 45%;
+  position: relative;
+  float: left;
+  height: 1000px;
+  /*margin-left: 10px;*/
+}
+
+.sortable-non-group {
+  height: 200px;
+  margin-left: 10px;
+}
+
+.sortable-groups {
+  margin-left: 10px;
+  min-height: 100px;
+}
+
+.non-groups-list {
+  width: 45%;
+  float: right;
+  position: relative;
+  top: -100;
+}
+
+.btn {
+  width: 100px;
+}
+
+.sortable > li {
+  min-height: 200px;
+  overflow: scroll;
+  margin-left: 10px;
+  border: 1px solid #aaa;
+}
+
+.sortable > li > h5 {
+  font-weight: 4px;
+  border: 1px solid #aaa;
+  background-color: #aaa;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+.sortable1 {
+  height: 50px;
+}
